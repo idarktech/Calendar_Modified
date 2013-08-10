@@ -1,0 +1,292 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="HandheldFriendly" content="true" />
+<title>Clone of Online Booking Form</title>
+<link type="text/css" rel="stylesheet" href="css/styles/form.css?v3.1.1273"/>
+<link type="text/css" rel="stylesheet" href="http://cdn.jotfor.ms/css/styles/nova.css?3.1.1273" />
+<link type="text/css" media="print" rel="stylesheet" href="http://cdn.jotfor.ms/css/printForm.css?3.1.1273" />
+<style type="text/css">
+    .form-label{
+        width:150px !important;
+    }
+    .form-label-left{
+        width:150px !important;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px !important;
+    }
+    .form-all{
+        width:690px;
+        color:#555 !important;
+        font-family:'Lucida Grande',' Lucida Sans Unicode',' Lucida Sans',' Verdana',' Tahoma',' sans-serif';
+        font-size:14px;
+    }
+    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+        color:#555;
+    }
+
+</style>
+<link rel="stylesheet" type="text/css" href="css/calendarview.css" />
+<script src="js/prototype.js?v=3.1.1273" type="text/javascript"></script>
+<script src="js/json2.js?v=3.1.1273" type="text/javascript"></script>
+<script src="js/protoplus.js?v=3.1.1273" type="text/javascript"></script>
+<script src="js/protoplus-ui.js?v=3.1.1273" type="text/javascript"></script>
+<script src="js/jotform.js?v=3.1.1273" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.init(function(){
+      $('input_30').hint('ex: myname@example.com');
+     // JotForm.setCalendar("15", false);
+     // JotForm.displayLocalTime("hour_15", "min_15", "ampm_15");
+      $('input_32').spinner({ imgPath:'http://cdn.jotfor.ms/images/', width: '60', maxValue:'', minValue:'1', allowNegative: false, addAmount: 1, value:'0' });
+   });
+</script>
+<script type="text/javascript" src="js/calendarview.js"></script>
+<script type="text/javascript" src="js/lang/en.js"></script>
+</head>
+<body>
+<form class="jotform-form" action="http://submit.jotformpro.com/submit.php" method="post" name="form_32202591340947" id="32202591340947" accept-charset="utf-8">
+  <input type="hidden" name="formID" value="32202591340947" />
+  <div class="form-all">
+    <ul class="form-section">
+      <li id="cid_27" class="form-input-wide">
+        <div class="form-header-group">
+          <h1 id="header_27" class="form-header">
+            Booking Form
+          </h1>
+          <div id="subHeader_27" class="form-subHeader">
+            Inserisci i tuoi dati (a solo scopo di fatturazione) - Insert your personal data (due to invoicing).
+          </div>
+        </div>
+      </li>
+      <li class="form-line" id="id_29">
+        <label class="form-label-left" id="label_29" for="input_29">
+          Full Name<span class="form-required">*</span>
+        </label>
+        <div id="cid_29" class="form-input"><span class="form-sub-label-container"><input class="form-textbox validate[required]" type="text" size="10" name="q29_fullName[first]" id="first_29" />
+            <label class="form-sub-label" for="first_29" id="sublabel_first"> First Name </label></span><span class="form-sub-label-container"><input class="form-textbox validate[required]" type="text" size="15" name="q29_fullName[last]" id="last_29" />
+            <label class="form-sub-label" for="last_29" id="sublabel_last"> Last Name </label></span>
+        </div>
+      </li>
+      <li class="form-line" id="id_30">
+        <label class="form-label-left" id="label_30" for="input_30">
+          E-mail<span class="form-required">*</span>
+        </label>
+        <div id="cid_30" class="form-input">
+          <input type="email" class=" form-textbox validate[required, Email]" id="input_30" name="q30_email30" size="30" value="" />
+        </div>
+      </li>
+      <li class="form-line" id="id_31">
+        <label class="form-label-left" id="label_31" for="input_31">
+          Phone Number*<span class="form-required">*</span>
+        </label>
+        <div id="cid_31" class="form-input"><span class="form-sub-label-container"><input class="form-textbox validate[required]" type="tel" name="q31_phoneNumber[country]" id="input_31_country" size="6">
+            -
+            <label class="form-sub-label" for="input_31_country" id="sublabel_country"> Codice Paese </label></span><span class="form-sub-label-container"><input class="form-textbox validate[required]" type="tel" name="q31_phoneNumber[area]" id="input_31_area" size="3">
+            -
+            <label class="form-sub-label" for="input_31_area" id="sublabel_area"> Area Code </label></span><span class="form-sub-label-container"><input class="form-textbox validate[required]" type="tel" name="q31_phoneNumber[phone]" id="input_31_phone" size="8">
+            <label class="form-sub-label" for="input_31_phone" id="sublabel_phone"> Phone Number </label></span>
+        </div>
+      </li>
+      <li class="form-line" id="id_37">
+        <div id="cid_37" class="form-input-wide">
+          <div id="text_37" class="form-html">
+            <p>
+              <em><span style="color: #222222; font-family: arial, sans-serif; font-size: 13px;">*Solo per comunicazioni di servizio per il tuo tour.</span>
+              </em>
+              <br style="color: #222222; font-family: arial, sans-serif; font-size: 13px;" />
+              <em><span style="color: #222222; font-family: arial, sans-serif; font-size: 13px;">For service alert only</span>
+              </em>
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" id="id_40">
+        <label class="form-label-left" id="label_40" for="input_40">
+          Select Tour<span class="form-required">*</span>
+        </label>
+        <div id="cid_40" class="form-input">
+          <select class="form-dropdown validate[required]" style="width:150px" id="input_40" name="q40_selectTour">
+            <option value=""> Select Tour </option>
+            <option value="Tour 1"> Tour 1 </option>
+            <option value="Tour 2"> Tour 2 </option>
+            <option value="Tour 3"> Tour 3 </option>
+            <option value="Tour 4"> Tour 4 </option>
+            <option value="Tour 5"> Tour 5 </option>
+            <option value="Tour 6"> Tour 6 </option>
+            <option value="Tour 7"> Tour 7 </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line" id="id_15">
+        <label class="form-label-left" id="label_15" for="input_15">
+          Departure Date/Time<span class="form-required">*</span>
+        </label>
+        <div id="cid_15" class="form-input"><span class="form-sub-label-container"><input class="noDefault form-textbox validate[required]" id="day_15" name="q15_departureDatetime15[day]" type="tel" size="2" maxlength="2" value="" readonly /><span class="date-separate">&nbsp;/</span>
+            <label class="form-sub-label" for="day_15" id="sublabel_day"> Day </label></span><span class="form-sub-label-container"><input class="form-textbox validate[required]" id="month_15" name="q15_departureDatetime15[month]" type="tel" size="2" maxlength="2" value="" readonly /><span class="date-separate">&nbsp;/</span>
+            <label class="form-sub-label" for="month_15" id="sublabel_month"> Month </label></span><span class="form-sub-label-container"><input class="form-textbox validate[required]" id="year_15" name="q15_departureDatetime15[year]" type="tel" size="4" maxlength="4" value="" readonly />
+            <label class="form-sub-label" for="year_15" id="sublabel_year"> Year </label></span><span class="form-sub-label-container"><img class="showAutoCalendar" alt="Pick a Date" id="input_15_pick" src="http://cdn.jotfor.ms/images/calendar.png" align="absmiddle" />
+            <label class="form-sub-label" for="input_15_pick"> &nbsp;&nbsp;&nbsp; </label></span>
+        </div>
+      </li>
+      <li class="form-line" id="id_33">
+        <label class="form-label-left" id="label_33" for="input_33">
+          Nationality / Language<span class="form-required">*</span>
+        </label>
+        <div id="cid_33" class="form-input">
+          <input type="text" class=" form-textbox validate[required]" data-type="input-textbox" id="input_33" name="q33_nationality33" size="20" value="" />
+        </div>
+      </li>
+      <li class="form-line" id="id_32">
+        <label class="form-label-left" id="label_32" for="input_32">
+          Number of Passengers<span class="form-required">*</span>
+        </label>
+        <div id="cid_32" class="form-input">
+          <input type="number" id="input_32" name="q32_numberOf32" data-type="input-spinner" class="form-spinner-input form-textbox validate[required]" data-spinnermin="1" />
+        </div>
+      </li>
+      <li class="form-line" id="id_39">
+        <div id="cid_39" class="form-input-wide">
+          <div id="text_39" class="form-html">
+            <p><span style="font-family: arial, sans-serif; font-size: 13px; color: #333333;">Per gruppi oltre 10 persone scrivere a&nbsp;</span>
+              <a style="color: #1155cc; font-family: arial, sans-serif; font-size: 13px;" href="mailto:booking@travelasap.it" target="_blank"><span style="color: #333333;">booking@travelasap.it</span></a>
+              <br style="color: #222222; font-family: arial, sans-serif; font-size: 13px;" /><span style="font-family: arial, sans-serif; font-size: 13px; color: #333333;">Over 10 persons, please send an email to&nbsp;</span>
+              <a style="color: #1155cc; font-family: arial, sans-serif; font-size: 13px;" href="mailto:booking@travelasap.it" target="_blank"><span style="color: #333333;">booking@travelasap.it</span></a>
+              &nbsp;
+              <br style="color: #222222; font-family: arial, sans-serif; font-size: 13px;" />
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" id="id_38">
+        <label class="form-label-left" id="label_38" for="input_38">
+          Dichiaro di accettare i termini e le condizioni. I read & accept the terms of use of A.S.A.P.<span class="form-required">*</span>
+        </label>
+        <div id="cid_38" class="form-input">
+          <div class="form-single-column"><span class="form-checkbox-item" style="clear:left;"><input type="checkbox" class="form-checkbox validate[required]" id="input_38_0" name="q38_dichiaroDi38[]" value="Yes" />
+              <label for="input_38_0"> Yes </label></span><span class="clearfix"></span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" id="id_1">
+        <div id="cid_1" class="form-input-wide">
+          <div style="margin-left:156px" class="form-buttons-wrapper">
+            <button id="input_1" type="submit" class="form-submit-button">
+              Submit - Invia
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <input type="hidden" id="simple_spc" name="simple_spc" value="32202591340947" />
+  <script type="text/javascript">
+  document.getElementById("si" + "mple" + "_spc").value = "32202591340947-32202591340947";
+  </script>
+</form>
+
+<script>
+var day = $('day_15'),
+    month = $('month_15'),
+    year = $('year_15'),
+    tour = $('input_40'),
+    today = new Date(),
+    hours = today.getHours(),
+    minutes = today.getMinutes(),
+    previousdate = today.getTime(),
+    previousdate = previousdate - (today.getHours() * 60 * 60 * 1000) - (today.getMinutes() * 60 * 1000) -  (today.getSeconds() * 1000);
+
+function getDateInfo(date) {
+  if (date.getTime() < previousdate){
+   return {tooltip: "<div style='text-align: center;'>Previous dates can't be selected</div>" };
+  }
+};
+
+function updateFields(cal) {
+  var date = cal.selection.get();
+            if (date) {
+            date = Calendar.intToDate(date);
+            day.value = Calendar.printDate(date, "%d");
+            month.value = Calendar.printDate(date, "%b");
+            year.value = Calendar.printDate(date, "%Y");
+}
+this.hide();
+};
+
+function dynacalendar(){
+    Calendar.setup({
+        dateInfo    : getDateInfo,
+        bottomBar   : false,
+        trigger     : "input_15_pick",
+        inputField  : updateFields,
+        onSelect    : updateFields,
+        disabled: function(date) {
+        if (date.getDay() == 2 ||
+            date.getDay() == 3 ||
+            date.getDay() == 4 ||
+            date.getDay() == 5 ||
+            date.getDay() == 6 ||
+            date.getDay() == 0 ||
+            date.getTime() < previousdate) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    });
+}
+
+</script>
+<!--start calendar script-->
+<script type="text/javascript">
+//get tour value
+tour.observe('change', calendarz);
+function calendarz(event){
+
+//first tour
+if (tour.selectedIndex == 1) {
+  dynacalendar();
+
+}
+//second tour
+else if (tour.selectedIndex == 2){
+  alert('Nothing here yet!');
+}
+//third tour
+else if (tour.selectedIndex == 3){
+  
+}
+//fourth tour
+else if (tour.selectedIndex == 4){
+  
+}
+//fifth tour
+else if (tour.selectedIndex == 5){
+  
+}
+//sixth tour
+else if (tour.selectedIndex == 6){
+  
+}
+//sevent tour
+else if (tour.selectedIndex == 7){
+  
+}
+
+};
+
+
+//testinging commits
+</script>
+</body>
+</html>
